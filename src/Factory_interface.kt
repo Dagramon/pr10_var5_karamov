@@ -18,7 +18,7 @@ interface Factory_interface
             var number = readln().toInt()
             if (number in 0..500)
             {
-                createdProduct += 500
+                createdProduct += number
             }
             else
             {
